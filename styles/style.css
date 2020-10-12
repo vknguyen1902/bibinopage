@@ -3,9 +3,9 @@ body {
   }
 
 .header {
-    padding: 80px; /* some padding */
+    padding: 30px; /* some padding */
     text-align: center; /* center the text */
-    background: #1abc9c; /* green background */
+    background: #00ABCF; /* green background */
     color: white; /* white text color */
   }
 
@@ -81,7 +81,7 @@ body {
   }
 
 .footer {
-    padding: 20px; /* Some padding */
+    padding: 10px; /* Some padding */
     text-align: center; /* Center text*/
     background: #ddd; /* Grey background */
   }
