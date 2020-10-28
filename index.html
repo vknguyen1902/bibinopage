@@ -35,7 +35,23 @@
                 </ul>
                 <h1>検索・帳票発行フォーム</h1>
                 <ul>
-                    <li><a href="#">one</a></li>
+                    <li><a href="#">１．データ所得のクエリーを作成</a></li>
+                    <li><a href="#">２．新規検索用テーブルを作成</a></li>
+                    <li><a href="#">３．テーブルのビューを作成</a></li>
+                    <li><a href="#">４．ストアドプロシージャを作成</a></li>
+
+３．ストアドプロシージャを作る
+　　例：spCLM_OAIssueDataFilter（spCLM_QuoteIssueDataFilterの内容を真似する）
+４．上のテーブルからIDOを作る
+　　例：th_tmp_oa_ido
+５．IDOの方法の中にメソッドをストアドプロシージャ・カスタムロードメソッド設定する
+　　例：ストアドプロシージャ：spCLM_OAIssueDataFilter
+　　　　パラメータを入力する
+　　　　カスタムロードメソッド出力プロパティを入力する
+６．IDOを納期回答書発行フォームに繋がる
+　　例：コレクション：th_tmp_oa_ido
+　　　　カスタムロードメソッド：spCLM_OAIssueDataFilter
+　　　　メソッドパラメータ：VARで設定する（検索用コンポネントのデータ結合に変数を設定する）
                     <li><a href="#">two</a></li>
                     <li>three</li>
                 </ul>            </div>
